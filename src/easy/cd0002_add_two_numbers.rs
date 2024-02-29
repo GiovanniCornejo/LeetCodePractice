@@ -12,7 +12,7 @@ impl ListNode {
     }
 }
 
-pub struct Solution;
+use super::Solution;
 impl Solution {
     pub fn add_two_numbers(
         l1: Option<Box<ListNode>>,
