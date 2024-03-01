@@ -1,10 +1,19 @@
 use super::Solution;
 
+use std::collections::HashMap;
+
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
-        let nums = vec![];
+        let mut diffs = HashMap::new();
 
-        return nums;
+        for (i, num) in nums.iter().enumerate() {
+            match diffs.get(num) {
+                Some(diff) => return vec![*diff, i as i32],
+                None => diffs.insert(target - num, i as i32),
+            };
+        }
+
+        vec![]
     }
 }
 
