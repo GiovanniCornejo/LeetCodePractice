@@ -18,7 +18,34 @@ impl Solution {
         l1: Option<Box<ListNode>>,
         l2: Option<Box<ListNode>>,
     ) -> Option<Box<ListNode>> {
-        return None;
+        let mut l1 = l1;
+        let mut l2 = l2;
+        let mut head = None;
+        let mut curr_head = &mut head;
+        let mut carry = 0;
+
+        loop {
+            if l1.is_none() && l2.is_none() && carry == 0 {
+                return head;
+            }
+
+            let mut sum = carry;
+
+            if let Some(node) = l1 {
+                l1 = node.next;
+                sum += node.val;
+            }
+            if let Some(node) = l2 {
+                l2 = node.next;
+                sum += node.val;
+            }
+
+            carry = sum / 10;
+            sum = sum % 10;
+
+            *curr_head = Some(Box::new(ListNode::new(sum)));
+            curr_head = &mut curr_head.as_mut().unwrap().next;
+        }
     }
 }
 
