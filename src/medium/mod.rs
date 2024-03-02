@@ -1,3 +1,4 @@
 pub mod cd0003_longest_substring_without_repeating_characters;
+pub mod cd0005_longest_palindromic_substring;
 
 pub struct Solution;
