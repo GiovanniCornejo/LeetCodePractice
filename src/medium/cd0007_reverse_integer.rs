@@ -6,7 +6,7 @@ impl Solution {
         let Some(mut x) = x.checked_abs() else {
             return 0;
         };
-        let mut reverse: i32 = 0;
+        let mut reverse = 0;
 
         while x >= 10 {
             let digit = x % 10;
