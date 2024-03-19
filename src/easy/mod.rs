@@ -4,5 +4,6 @@ pub mod cd0009_palindrome_number;
 pub mod cd0013_roman_to_integer;
 pub mod cd0014_longest_common_prefix;
 pub mod cd0217_contains_duplicate;
+pub mod cd0242_valid_anagram;
 
 pub struct Solution;
