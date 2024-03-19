@@ -5,4 +5,5 @@ pub mod cd0007_reverse_integer;
 pub mod cd0008_string_to_integer_atoi;
 pub mod cd0011_container_with_most_water;
 pub mod cd0012_integer_to_roman;
+pub mod cd0049_group_anagrams;
 pub struct Solution;
