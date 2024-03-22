@@ -8,5 +8,6 @@ pub mod cd0012_integer_to_roman;
 pub mod cd0036_valid_sudoku;
 pub mod cd0049_group_anagrams;
 pub mod cd0238_product_of_array_except_self;
+pub mod cd0271_encode_and_decode_strings;
 pub mod cd0347_top_k_frequent_elements;
 pub struct Solution;
