@@ -7,6 +7,7 @@ pub mod cd0011_container_with_most_water;
 pub mod cd0012_integer_to_roman;
 pub mod cd0036_valid_sudoku;
 pub mod cd0049_group_anagrams;
+pub mod cd0128_longest_consecutive_sequence;
 pub mod cd0238_product_of_array_except_self;
 pub mod cd0271_encode_and_decode_strings;
 pub mod cd0347_top_k_frequent_elements;
