@@ -34,11 +34,11 @@ int main()
 
         std::cout << "Input:" << std::endl;
         std::cout << "Target:    " << test.target << std::endl;
-        std::cout << "Positions: " << test.position[0];
+        std::cout << "Positions: [" << test.position[0];
         for (int i = 1; i < test.position.size(); ++i)
             std::cout << ", " << test.position[i];
         std::cout << "]\n";
-        std::cout << "Speed:     " << test.speed[0];
+        std::cout << "Speed:     [" << test.speed[0];
         for (int i = 1; i < test.speed.size(); ++i)
             std::cout << ", " << test.speed[i];
         std::cout << "]\n";
