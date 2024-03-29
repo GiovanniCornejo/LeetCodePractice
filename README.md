@@ -1,6 +1,6 @@
 # LeetCode Solutions Repository
 
-Welcome to my LeetCode solutions repository! This branch contains solutions to various LeetCode problems in C++. You can run any problem with the following bash script:
+Welcome to my LeetCode solutions repository! This repo contains solutions to various LeetCode problems in C++. You can run any problem with the following bash script:
 
 ```bash
 ./test_problem.sh <problem_dir>
