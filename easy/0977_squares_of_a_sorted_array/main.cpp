@@ -42,8 +42,8 @@ int main()
         results += (passed) ? "." : "F";
 
         std::cout << "Input: [" << test.input[0];
-        for (int i = 1; i < test.expected.size(); ++i)
-            std::cout << ", " << test.expected[i];
+        for (int i = 1; i < test.input.size(); ++i)
+            std::cout << ", " << test.input[i];
         std::cout << "]\n";
         std::cout << "\tExpected: [" << test.expected[0];
         for (int i = 1; i < test.expected.size(); ++i)
