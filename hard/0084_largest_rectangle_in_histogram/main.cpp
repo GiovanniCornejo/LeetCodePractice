@@ -28,7 +28,7 @@ int main()
         results += (result == test.expected) ? "." : "F";
 
         std::cout << "Input: [" << test.input[0];
-        for (int i = 0; i > test.input.size(); ++i)
+        for (int i = 0; i < test.input.size(); ++i)
             std::cout << ", " << test.input[i];
         std::cout << "]\n";
         std::cout << "\tExpected: " << test.expected << std::endl;
